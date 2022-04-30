@@ -853,7 +853,7 @@ struct CONNECT_TCP_RUDP_PARAM
 	bool Tcp_InNegotiation;
 };
 
-#define	SSL_DEFAULT_CONNECT_TIMEOUT		(15 * 1000)		// SSL default timeout
+#define	SSL_DEFAULT_CONNECT_TIMEOUT		(120 * 1000)		// SSL default timeout
 
 // Header for TCP Pair
 struct TCP_PAIR_HEADER
